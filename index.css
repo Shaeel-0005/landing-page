@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
+}
+
+header{
+    background-color:#1F2937 ;
+    color: #f9faf8;
+    width: 100%;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar h1{
+    font-size: 24px;
+    font-family: 'Roboto';
+    color: #f9faf8;
+}
+
+.navlinks{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.navlinks a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: 'Roboto';
+    
+}
+
+
+/* hero-serction */
+
+.hero-section{
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 5rem 0;
+    gap: 20px;
+    }
+
+.left-col{
+    flex:1 1 0;
+    overflow: hidden;
+
+}
+.left-col h1{
+   font-size: 48px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    color: #f9faf8;
+    margin-bottom: 20px;
+}
+.left-col p{
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #e5e7eb;
+    margin-bottom: 20px;
+}
+
+#hero-btn{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+    cursor: pointer;
+
+
+}
+.right-col{
+    flex:1 1 0;
+    overflow: hidden;
+}
+.right-col img{
+    width: 100%;
+}
+
+
+/* services section */
+
+.services-section{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 2rem 0;
+   margin-bottom: 3rem;
+}
+.title{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.grid{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item{
+    flex: 1 1 20%;
+    text-align: center;
+}
+.item p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 10px;
+}
+.item img{
+    width: 100%;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+
+/* Quote section */
+
+.quote-section{
+    background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    
+}
+.quote p{
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 2rem;
+}
+.quote p:last-child{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    text-align: right;
+    float: right;
+}
+/* CTA Section */
+.cta-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937; /* Add a background for better contrast */
+    padding: 3rem 0;
+}
+
+.cta-container {
+    width: 80%;
+    max-width: 900px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* Ensures proper spacing */
+    gap: 20px; /* Adds space between columns */
+    color: white;
+    background: #647895 !important; ; /* Optional: Give it a distinct box */
+    border-radius: 10px; /* Smooth edges */
+}
+
+/* Left Column */
+.col-left {
+    flex: 1;
+}
+
+.col-left h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.col-left p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Right Column */
+.col-right {
+    flex: 1;
+    text-align: center;
+}
+
+/* CTA Button */
+#cta-btn {
+    background-color: #3882f6; /* Nice standout color */
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#cta-btn:hover {
+    background-color: #ff5733; /* Slightly darker on hover */
+}
+footer {
+    background-color: #0a1931; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
